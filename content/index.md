@@ -6,5 +6,5 @@ Description: This is our index page.
 Home page
 ==========================
 <img src="assets/img/me.png">
-bhisernfgesoin
+
 Jag heter Hampus och detta är min portfölj för kursen Design!
