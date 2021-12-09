@@ -6491,7 +6491,12 @@ pre code {
   font-family: "Roboto", sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Open Sans", sans-serif;
 }
 
@@ -6501,4 +6506,19 @@ body {
 
 * {
   color: #000;
+}
+
+.nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.social {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.social i {
+  margin: 7px;
 }

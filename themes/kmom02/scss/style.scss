@@ -19,7 +19,12 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
     
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -29,4 +34,20 @@ body {
 
 * {
     color: $font-color;
+}
+
+.nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.social {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    i {
+        margin: 7px;
+    }
 }
