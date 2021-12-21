@@ -6,10 +6,12 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 
 
 @import '../../node_modules/normalize.css/normalize';
-@import 'variables';
-@import 'about';
-@import 'blockquotes';
-@import 'code';
+@import 'style/variables';
+@import 'style/about';
+@import 'style/landingpage';
+@import 'style/technology';
+@import 'style/blockquotes';
+@import 'style/code';
 
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300&display=swap');
@@ -50,4 +52,14 @@ body {
     i {
         margin: 7px;
     }
+}
+
+.logo {
+    img {
+        width: 300px;
+    }
+}
+
+.active {
+    color: $font-alternative-color;
 }

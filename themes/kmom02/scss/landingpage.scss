@@ -1,0 +1,36 @@
+.grid-box {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(3, 300px);
+    grid-gap: 50px;
+}
+.grid-item {
+    background-color: $accent-color1;
+    border: 3px solid black;
+    border-radius: 20px;
+    
+    img {
+        width: 10%;
+        height: 10%;
+        margin-left: 85%;
+        margin-top: 45%;
+    }
+    h2 {
+        background-color: $accent-color2;
+        color: $font-alternative-color;
+        height: 50px;
+        margin-top: 0px;
+        padding-top: 10px;
+        text-align: center;
+
+        border: 0px solid black;
+        border-radius: 17px 17px 0px 0px;
+    }
+    h3 {
+        padding-left: 5px;
+    }
+}
+.grid-item-projekt {
+    grid-column: span 3;
+}
