@@ -13,6 +13,9 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'style/blockquotes';
 @import 'style/code';
 
+@import 'mobile-menu/technology-mobile';
+@import 'mobile-menu/landingpage-mobile';
+
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300&display=swap');
 
@@ -45,7 +48,7 @@ body {
 }
 
 .social {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     right: 0;
 

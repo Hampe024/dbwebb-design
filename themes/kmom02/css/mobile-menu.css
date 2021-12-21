@@ -20,9 +20,15 @@
 
 .nav-toggle {
     display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 @media (max-width: 767px) {
+    .hidden {
+        display: none;
+    }
     .header {
         flex-direction: column;
     }
@@ -33,7 +39,7 @@
     }
 
     .nav ul li {
-        display: flex;
+        display: block;
         flex-direction: column;
         text-align: center;
     }
